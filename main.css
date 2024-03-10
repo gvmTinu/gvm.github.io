@@ -1,0 +1,392 @@
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    z-index: 99;
+    font-size: 18px;
+    border: 2px solid white;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 100px;
+  }
+  
+  #myBtn:hover {
+      border: 2px solid black;
+    transition: 0.4s ease-in;
+    background-color: white;
+    color: black;
+  }
+
+.navbar-brand {
+    padding: 49%;
+}
+
+#title {
+    text-align: center;
+}
+
+#titleText {
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.603);
+    display: inline-block;
+    color: white;
+    text-align: center;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+}
+
+#redefined {
+    color: royalblue;
+}
+
+#routing {
+    text-align: center;
+    padding: 2%;
+}
+
+#routing img {
+    border: 3px solid white;
+    height: 200px;
+    width: 200px;
+}
+
+#routing button {
+    font-size: 15px;
+    padding: 15px;
+    margin: 2%;
+    border-radius: 30px;
+}
+
+#routing button:hover {
+    background-color: black;
+    color: white;
+    transform: rotate3d(180);
+}
+
+#sect1 {
+    border: 2px solid black;
+    background-image: url("bg.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sect2 {
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#sect2 h2 {
+    margin-top: 5%;
+    margin-bottom: -100px;
+}
+
+#sect2 p {
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+    padding-bottom: 5%;
+    margin-top: -100px;
+}
+
+#sect2 img {
+    text-align: center;
+    height: 700px;
+    width: 500px;
+}
+
+#sect3 {
+    background-image: url("bg2.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#sect3 img {
+    text-align: center;
+    height: 350px;
+    width: 400px;
+    padding: 10px;
+}
+
+#sect3 h2 {
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#show {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7%;
+}
+
+#xp {
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.815);
+    margin: 2%;
+    text-align: center;
+    max-width: 250px;
+    max-height: 300px;
+}
+
+#xp h3 {
+    padding: 5px;
+}
+
+#xp img {
+    margin: 2%;
+    height: 50px;
+    width: 50px
+}
+
+#xp p {
+    font-size:12px;
+    padding: 10px;
+}
+
+#code {
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.815);
+    margin: 2%;
+    text-align: center;
+    max-width: 250px;
+    max-height: 300px;
+}
+
+#code h3 {
+    padding: 5px;
+}
+
+#code img {
+    margin: 2%;
+    height: 50px;
+    width: 50px
+}
+
+#code p {
+    font-size: 12px;
+    padding: 10px;
+}
+
+#checked {
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.815);
+    margin: 2%;
+    text-align: center;
+    max-width: 250px;
+    max-height: 300px;
+}
+
+#checked h3 {
+    padding: 5px;
+}
+
+#checked img {
+    margin: 2%;
+    height: 50px;
+    width: 50px
+}
+
+#checked p {
+    font-size: 12px;
+    padding: 10px;
+}
+
+#sect4 {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#work {
+    text-align: center;
+    padding: 2%;
+}
+
+#work h2 {
+    padding: 5%;
+}
+
+#work img {
+    padding: 10px;
+    height: 400px;
+    width: 600px;
+    padding-bottom: 5%;
+}
+
+#work img:hover {
+    transition: 0.5s ease-in;
+    height: 450px;
+    width: 670px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-top: 2px solid black;
+}
+
+footer p {
+    padding: 5px;
+    text-align: center; 
+}
+
+#contact {
+    text-align: center;
+    padding: 5px;
+}
+
+#contact img {
+    margin: 7px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    #myBtn {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .navbar {
+        height: 35px;
+        margin-top: 2%;
+    }
+
+    .navbar-brand {
+        background-color: white;
+        position: absolute;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+
+    #sect1 {
+        margin-top: 3%;
+    }
+
+    .navbar-brand img {
+        height: 25px;
+        width: 25px;
+    }
+
+    #sect3 h2 {
+        font-size: 20px;
+    }
+
+    #sect3 img {
+        height: 200px;
+        width: 300px;
+    }
+
+    #show {
+        max-width: 50%;
+        display: inline-block;
+        text-align: center;
+    }
+        
+    #show h3 {
+        font-size: 13px;
+    }
+
+    #show img {
+        height: 45px;
+        width: 55px;
+    }
+
+    #show p {
+        font-size: 10px;
+    }
+
+    #work h2 {
+        font-size: 20px;
+    }
+
+    #work img {
+      height: 200px;
+      width: 300px;
+    }
+
+    #work img:hover {
+        transition: 0.1s ease-in;
+        height: 250px;
+        width: 370px;
+    }
+
+    #titleText h1 {
+        font-size: 20px;
+    }
+
+    #titleText h2 {
+        font-size: 17px;
+    }
+
+    #routing img {
+        margin-bottom: 10px;
+        border: 3px solid white;
+        height: 130px;
+        width: 145px;
+    }
+
+    #routing button {
+        padding: 10px;
+        background-color: white;
+        color: black;
+        font-size: 12px;
+    }
+
+    #routing button:hover {
+        background-color: black;
+        color: white;
+    }
+
+    #about h2 {
+        font-size: 20px;
+    }
+
+    #about img {
+        height: 400px;
+        width: 300px;
+        margin: 10%;
+    }
+
+    #about p {
+        font-size: 12px;
+    }
+
+    #contact h4 {
+        font-size: 12px;
+    }
+
+    #contact img {
+        height: 23px;
+        width: 23px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+  }
